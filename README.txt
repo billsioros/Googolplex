@@ -11,12 +11,12 @@ like determining the length of a specific document
 (d) Locally defined and used a Util, list like, struct in order to avoid reallocing memory
 in the file validation step
 
-(e) For further documentation please refer the source files
+(e) For further documentation please refer to the source files
 
 ATTENTION:
 In order to run the program:
 (1) make
 (2) cd /bin
-(3) ./minisearch -i <relevant/path/to/docfile> -k K
+(3) ./minisearch -i <relevant/path/to/docfile> -k <maxResults>
 
-~ Vasileios Sioros - 1115201500144 ~
+~ billsioros ~
