@@ -11,14 +11,14 @@ int main(int argc, char * argv[])
     
     if (argc < 5)
     {
-        std::cout << error << std::endl;
+        std::cerr << error << std::endl;
         return -1;
     }
     
     const int maxResults = std::atoi(argv[MAXQ_INPUT]);
     if (std::strcmp(argv[FILE_FLAG], "-i") || std::strcmp(argv[MAXQ_FLAG], "-k") || maxResults <= 0)
     {
-        std::cout << error << std::endl;
+        std::cerr << error << std::endl;
         return -2;
     }
 

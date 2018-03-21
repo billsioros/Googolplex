@@ -1,4 +1,6 @@
 
+# Googolplex - A C++ document search engine
+
 (a) Kept the trie's nodes' siblings lexicographically sorted in order to reduce
 the insertion and look up complexity of the trie
 
@@ -15,6 +17,7 @@ in the file validation step
 
 ATTENTION:
 In order to run the program:
+(0) mkdir bin
 (1) make
 (2) cd /bin
 (3) ./minisearch -i <relevant/path/to/docfile> -k <maxResults>
