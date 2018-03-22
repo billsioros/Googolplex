@@ -1,5 +1,7 @@
 
-# Googolplex - A C++ document search engine
+## Googolplex - A C++ document search engine
+
+# PERFORMANCE NOTES:
 
 * Kept the trie's nodes' siblings lexicographically sorted in order to reduce
   the insertion and look up complexity of the trie
@@ -15,7 +17,7 @@
 
 * For further documentation please refer to the source files
 
-COMPILE & RUN:
+# COMPILE & RUN:
 
 * mkdir bin
 * make
