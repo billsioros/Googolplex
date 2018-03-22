@@ -16,7 +16,6 @@ in the file validation step
 * For further documentation please refer to the source files
 
 COMPILE & RUN:
-In order to run the program:
 * mkdir bin
 * make
 * cd /bin
